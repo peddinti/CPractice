@@ -296,6 +296,32 @@ int PracticeProblems<T>::QueenPositions(int dim) {
 }
 
 template <typename T>
+vector<vector<pair<int,int>>> PracticeProblems<T>::MakeSums(const int* values, int length, int sum) {
+    return MakeSumsInternal(values, 0, length, sum);
+}
+
+template <typename T>
+vector<vector<pair<int,int>>> PracticeProblems<T>::MakeSumsInternal(const int* values, int start, int length, int sum) {
+    vector<vector<pair<int, int>>> results;
+    if (sum == 0)
+        return results;
+    for (int i=start; i < length-1; i++) {
+        int count = sum/values[i];
+        for (int j=1; j<=count; j++) {
+            auto partial_results = MakeSumsInternal(values, i+1, length, (sum-j*values[i]));
+            for (auto result: partial_results) {
+                result.push_back(pair<int, int>(values[i], j));
+            }
+            if (sum == (j*values[i])) {
+                partial_results.push_back(vector<pair<int, int>>({pair<int, int>(values[i], j)}));
+            }
+            results.insert(results.end(), partial_results.begin(), partial_results.end());
+        }
+    }
+    return results;
+}
+
+template <typename T>
 bool PracticeProblems<T>::CheckBSTInternal(BinaryTreeNode<T> * node, T ** min, T ** max) {
     if (node == nullptr)
         return false;

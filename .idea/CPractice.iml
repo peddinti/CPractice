@@ -2,13 +2,6 @@
 <module type="CPP_MODULE" version="4">
   <component name="NewModuleRootManager">
     <content url="file://$MODULE_DIR$">
-      <sourceFolder url="file://$MODULE_DIR$/SortingAlgorithms.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/main.cpp" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/PracticeProblemsTests/PracticeProblemsTests.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/PracticeProblemsTests/PracticeProblemsTests.cpp" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/SortingAlgorithms.cpp" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/PracticeProblems/PracticeProblems.cpp" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/PracticeProblems/PracticeProblems.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/DataStructures/Node.cpp" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/DataStructures/LinkedList.cpp" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/DataStructures/BinaryTree.cpp" isTestSource="false" />
@@ -19,6 +12,15 @@
       <sourceFolder url="file://$MODULE_DIR$/DataStructures/BinaryTree.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/DataStructures/Node.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/DataStructures/LinkedList.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/PracticeProblemsTests/PracticeProblemsTests.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/PracticeProblemsTests/PracticeProblemsTests.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/main.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/SortingAlgorithms.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/SortingAlgorithms.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/PracticeProblems/QuoraChallenges.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/PracticeProblems/PracticeProblems.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/PracticeProblems/PracticeProblems.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/PracticeProblems/QuoraChallenges.cpp" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/CMakeLists.txt" isTestSource="false" />
     </content>
     <orderEntry type="sourceFolder" forTests="false" />

@@ -35,6 +35,7 @@ public:
     static int MatrixSteps(int, int);
     static int GetChange(int);
     static int QueenPositions(int);
+    static vector<vector<pair<int,int>>> MakeSums(const int*, int, int);
 private:
     static void Rotate90_internal(vector<vector<T>>*, int, int);
     static int AddNumberReverseLinkedListInternal(const LinkedListNode<T>*, int, const LinkedListNode<T>*, int, LinkedListNode<T>**);
@@ -47,6 +48,7 @@ private:
     static int GetChangeInternal(int, int[], int, int);
     static int QueenPositionsInternal(int, int*, int);
     static bool QueenPositionIsValid(const int*, int, int, int);
+    static vector<vector<pair<int,int>>> MakeSumsInternal(const int*, int, int, int);
 };
 
 
